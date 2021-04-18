@@ -23,7 +23,7 @@
                 </thead>
                 <tbody>
     <?php
-        include("opDatabase.php");
+        include("../../nonpublic/oceanpark/opDatabase.php");
         $attendee = [];
         foreach ($_GET as $key => $value) {
             if (substr($key, -9) === 'Firstname') {

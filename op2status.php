@@ -19,7 +19,7 @@
         echo "<p>Please click back on your browser, and enter an email.</p>\n<meta http-equiv='refresh' content='3;url=index.php'>";
     } else {
         $email = $_GET['email'];
-        include("opDatabase.php");
+        include("../../nonpublic/oceanpark/opDatabase.php");
         $registrant = null;
         foreach ($registrants as $registrant) //Search for this email among previous registrations
             if ($email == $registrant.email)

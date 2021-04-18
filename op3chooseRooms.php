@@ -17,7 +17,7 @@
 
     <?php
 
-    include("opDatabase.php");
+    include("../../nonpublic/oceanpark/opDatabase.php");
 
     if (array_key_exists('command', $_GET)) {
         switch ($_GET['command']) {
