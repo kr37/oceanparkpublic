@@ -15,8 +15,8 @@
 
     <h2>Step 5: Personal information</h2>
 
-    <form action="op6payment.php" method="get">
-        <?php foreach($_GET as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
+    <form action="op6payment.php" method="post">
+        <?php foreach($_POST as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
         <input type="submit" value="Next"></p>
         <fieldset>
             <p>Please tell us about you.</p>
@@ -33,12 +33,12 @@
             <p>For insurance purposes, Ocean Park Camp requires the following information for all the people in your group.</p>
             <p>Regarding food allergies and dietary restrictions, we would like to accommodate, and will let you know in advance.</p>
             <?php
-            foreach ($_GET as $key => $value) {
+            foreach ($_POST as $key => $value) {
                 if (substr($key, -9) === 'Firstname') {
                     $root = substr($key, 0, -9);
                     echo <<<INDIVIDUALINFO
             <fieldset>
-                <legend>$value {$_GET[$root.'Lastname']}</legend>
+                <legend>$value {$_POST[$root.'Lastname']}</legend>
                 <div><label for='{$root}address'>Home address</label><br>
                     <textarea rows='5' cols='37' name='{$root}address'></textarea></div>
                 <div><label for='{$root}emergencyContact'>Emergency contact (name and phone of someone off-site)</label><br>
@@ -59,7 +59,7 @@ INDIVIDUALINFO;
     </form>
     <pre>
     <?php
-        var_dump($_GET);
+        var_dump($_POST);
     ?>
     </pre>
 

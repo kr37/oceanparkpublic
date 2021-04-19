@@ -15,10 +15,10 @@
     <h2>Step 2: Status</h2>
 
     <?php
-    if (!array_key_exists('email', $_GET)) {
+    if (!array_key_exists('email', $_POST)) {
         echo "<p>Please click back on your browser, and enter an email.</p>\n<meta http-equiv='refresh' content='3;url=index.php'>";
     } else {
-        $email = $_GET['email'];
+        $email = $_POST['email'];
         include("../../nonpublic/oceanpark/opDatabase.php");
         $registrant = null;
         foreach ($registrants as $registrant) //Search for this email among previous registrations
@@ -28,7 +28,7 @@
             echo <<<NOTREGISTERED
                 <p>It looks like you haven't registered yet.</p>
                 <p>Later, after you've registered, if you come back here, you can view your registration and pay any remaining balance.<p>
-                <form action='op3chooseRooms.php' method='get'>
+                <form action='op3chooseRooms.php' method='post'>
                     <input type='hidden' name='email' value='$email'>
                     <input type='submit' value='next'>
                 </form>

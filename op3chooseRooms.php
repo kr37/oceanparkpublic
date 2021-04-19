@@ -19,16 +19,16 @@
 
     include("../../nonpublic/oceanpark/opDatabase.php");
 
-    if (array_key_exists('command', $_GET)) {
-        switch ($_GET['command']) {
+    if (array_key_exists('command', $_POST)) {
+        switch ($_POST['command']) {
             case 'getBuildingsAndRooms': echo json_encode([$buildings, $rooms]); break;
         }
     }
 
     ?>
-    <form id="registrationForm" action="op4names.php" method="get">
+    <form id="registrationForm" action="op4names.php" method="post">
         <input type="submit" value="Next">
-        <?php foreach($_GET as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
+        <?php foreach($_POST as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
         <table>
         <tbody>
     <?php
@@ -118,7 +118,7 @@ CREATE TABLE `xref_buildings2rooms` (
 ?>
     <pre>
     <?php
-        var_dump($_GET);
+        var_dump($_POST);
     ?>
     </pre>
 

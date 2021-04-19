@@ -14,14 +14,14 @@
 
     <h2>Step 4: Names and linens</h2>
 
-    <form action="op5personalInfo.php" method="get">
+    <form action="op5personalInfo.php" method="post">
         <p>Total Cost: $<span id="mainCost">0</span> 
         <input type="submit" value="Next"></p>
-        <?php foreach($_GET as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
+        <?php foreach($_POST as $key => $value) echo "        <input type='hidden' name='$key' value='$value'>\n"; ?>
 
         <?php
         include("../../nonpublic/oceanpark/opDatabase.php");
-        $roomsChosen = array_keys($_GET);
+        $roomsChosen = array_keys($_POST);
         $roomIDs = [];
         foreach($roomsChosen as $room) //Put all valid roomIDs into an array
             if (substr($room, 0, 4) === 'room')
@@ -32,14 +32,15 @@
             echo "<br>\n        $building[name] room  {$room['roomNumber']}: $room[description]<br>\n";
             echo "        <fieldset>\n";
             for ($i = 0; $i < $room['beds']; $i++) {
+                $roomStub = "Bldg{$buildingID}Rm{$id}";
                 $idStub = "Bldg{$buildingID}Rm{$id}Person{$i}";
                 echo <<<INPUTS
-                <input type='checkbox' class='chosen room$id' id='$idStub' onclick='checkboxToggled($idStub);' data-p1='300' data-p2='240' data-p3='200'>
+                <input type='checkbox' class='chosen room$id' id='$idStub' onclick='checkboxToggled($idStub);' $building[priceData] data-roomStub='$roomStub'>
                 <input type='text' name='{$idStub}Firstname' id='{$idStub}Firstname' placeholder='First name' disabled>
                 <input type='text' name='{$idStub}Lastname' id='{$idStub}Lastname' placeholder='Last name' disabled>
                 <label for="{$idStub}Age">Age</label> 
-                <select name="{$idStub}Age" id="{$idStub}Age" disabled>
-                    <option value="18+">18+</option>
+                <select class="AgesRm$id" name="{$idStub}Age" id="{$idStub}Age" disabled>
+                    <option value="18">18+</option>
                     <option value="17">17</option>
                     <option value="16">16</option>
                     <option value="15">15</option>
@@ -59,7 +60,8 @@
                     <option value="1">1</option>
                     <option value="0">0</option>
                 </select>
-                Include linens $15 <input type='checkbox' name='{$idStub}Linens' id='{$idStub}Linens' disabled><br>
+                Include linens $15 <input type='checkbox' name='{$idStub}Linens' id='{$idStub}Linens' disabled>
+                <input type='text' class='cost$id' id='{$idStub}cost' name='{$idStub}cost' value='' size='4' readonly='readonly'><br>
 
 INPUTS;
             } 
@@ -70,27 +72,54 @@ INPUTS;
     </form>
     <pre>
     <?php
-        var_dump($_GET);
+        var_dump($_POST);
     ?>
     </pre>
     <script>
         function checkboxToggled(checkbox){
             var id = checkbox.id; 
+            var roomStub = checkbox.dataset['roomStub'];
             toggleDisabled(id+'Firstname');
             toggleDisabled(id+'Lastname');
             toggleDisabled(id+'Linens');
             toggleDisabled(id+'Age');
 
             // Tally the cost for this room. First, figure out how many people.
-            var matches = id.match(/Bldg\d+Rm(\d+)Person\d+/)
+            var matches = id.match(/Bldg\d+Rm(\d+)Person\d+/) //Get the room number from the id
             var room = matches[1];
-            var selector = 'input[class="chosen room'+room+'"]:checked';
-            var checked = document.querySelectorAll(selector);
+            // Find out how many people are staying in this room
+            var checked = document.querySelectorAll('input[class="chosen room'+room+'"]:checked');
             var peopleInRoom = checked.length;
+            // Get the price point for that number of people
             var price = peopleInRoom > 0 ? checkbox.dataset['p'+peopleInRoom] : 0;
-            var cost = peopleInRoom * price;
+
+            //Now, loop through all the beds in the room, updating the cost for each bed
+            var cost = 0;
+            var allBedsInRoomChk = document.querySelectorAll('input[class="chosen room'+room+'"]');
+            var allAgesInRoom    = document.querySelectorAll('select[class="AgesRm'+room+'"]');
+            var bedCosts         = document.querySelectorAll('input[class="cost'+room+'"]');
+            for (i=0; i<bedCosts.length; i++) {
+                if (allBedsInRoomChk[i].checked == true) {
+                    var age = allAgesInRoom[i].value;
+                    console.log('Age: '+age);
+                    if (age > 17) 
+                        bedCosts[i].value = price;
+                    else if (age > 5)
+                        bedCosts[i].value = price / 2;
+                    else if (age > 2)
+                        bedCosts[i].value = 50;
+                    else bedCosts[i].value = 0;
+                } else {
+                    bedCosts[i].value = 0;
+                }
+                cost += parseInt(bedCosts[i].value);
+            }
+                
+            // Display the cost for this room
             document.getElementById('cost'+room).textContent = peopleInRoom + ' people x $' + price + 'ea = $' + cost;
+            // Set hidden input with cost for this room
             document.getElementById('roomCost'+room).value = cost;
+            // Update the total cost for all rooms
             tallyAll();
         }
 
