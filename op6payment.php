@@ -48,16 +48,25 @@
 INDIVIDUALINFO;
             }
         }            
-        echo "<tr><td colspan='4' style='text-align:right;'>Grand Total </td><td>$$grandTotal</td></tr>\n";
-        ?>
+        $deposit = sprintf("%01.2f", $grandTotal / 4);
+        echo <<<TOTALS
+                    <tr><td colspan='4' style='text-align:right;'>Grand Total </td><td>$$grandTotal</td></tr>
                 </tbody>
             </table>
+            <br>
+            <select name="amount">
+                <option value="$grandTotal">Full $$grandTotal</option>
+                <option value="$deposit">25% Depost: $$deposit</option>
+            </select>
+            <p><input type='submit' value='Pay at PayPal' onclick='alert("This is not set up, yet.");'></p>
     </form>
-    <pre>
-    <?php
-        var_dump($_POST);
+
+TOTALS;
+
+    echo "<pre>\n";
+        //var_dump($_POST);
+    echo "</pre>\n";
     ?>
-    </pre>
 
 </body>
 </html>
