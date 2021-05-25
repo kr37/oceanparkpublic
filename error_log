@@ -1,26 +1,858 @@
-[02-May-2021 19:22:50 UTC] PHP Warning:  include(2status.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:22:50 UTC] PHP Warning:  include(2status.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:22:50 UTC] PHP Warning:  include(): Failed opening '2status.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:23:00 UTC] PHP Warning:  include(2status.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 7
-[02-May-2021 19:23:00 UTC] PHP Warning:  include(2status.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 7
-[02-May-2021 19:23:00 UTC] PHP Warning:  include(): Failed opening '2status.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 7
-[02-May-2021 19:30:42 UTC] PHP Warning:  include(3rooms.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:30:42 UTC] PHP Warning:  include(3rooms.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:30:42 UTC] PHP Warning:  include(): Failed opening '3rooms.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:30:50 UTC] PHP Warning:  include(3rooms.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:30:50 UTC] PHP Warning:  include(3rooms.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:30:50 UTC] PHP Warning:  include(): Failed opening '3rooms.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 8
-[02-May-2021 19:48:18 UTC] PHP Warning:  include(6payment.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 11
-[02-May-2021 19:48:18 UTC] PHP Warning:  include(6payment.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 11
-[02-May-2021 19:48:18 UTC] PHP Warning:  include(): Failed opening '6payment.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 11
-[19-May-2021 07:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storeCart() in /home/krorg/nonpublic/oceanpark/6payment.php:67
+[21-May-2021 06:49:46 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 06:49:46 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[20-May-2021 23:49:51 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 19
+[20-May-2021 23:49:51 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 19
+[20-May-2021 23:49:51 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 19
+[20-May-2021 23:49:51 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 19
+[21-May-2021 06:56:42 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 06:56:42 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[20-May-2021 23:56:56 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 20
+[20-May-2021 23:56:56 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 20
+[20-May-2021 23:56:56 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 20
+[20-May-2021 23:56:56 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 20
+[21-May-2021 07:00:38 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:00:38 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[21-May-2021 00:00:52 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:00:52 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:00:52 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:00:52 America/Los_Angeles] PHP Warning:  Illegal string offset 'id' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 07:07:47 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:07:47 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[21-May-2021 00:08:01 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:08:01 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:08:01 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:08:01 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:08:01 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 07:11:30 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:11:30 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 24
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 24
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 24
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 24
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 21
+[21-May-2021 00:11:43 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 24
+[21-May-2021 07:17:27 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:17:27 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 22
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 25
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 22
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 25
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 22
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 25
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 22
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 25
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 22
+[21-May-2021 00:17:41 America/Los_Angeles] PHP Warning:  Illegal string offset 'cartId' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 25
+[21-May-2021 07:26:37 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:26:37 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[21-May-2021 07:31:27 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 2
+[21-May-2021 07:31:27 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 3
+[24-May-2021 02:22:00 UTC] PHP Fatal error:  Cannot redeclare arrayFromDB() (previously declared in /home/krorg/nonpublic/oceanpark/opDb-db.php:17) in /home/krorg/nonpublic/oceanpark/opDb-cart.php on line 13
+[24-May-2021 02:22:16 UTC] PHP Fatal error:  Cannot redeclare arrayFromDB() (previously declared in /home/krorg/nonpublic/oceanpark/opDb-db.php:17) in /home/krorg/nonpublic/oceanpark/opDb-cart.php on line 13
+[24-May-2021 02:24:08 UTC] PHP Fatal error:  Cannot redeclare arrayFromDB() (previously declared in /home/krorg/nonpublic/oceanpark/opDb-db.php:17) in /home/krorg/nonpublic/oceanpark/opDb-cart.php on line 13
+[24-May-2021 02:25:01 UTC] PHP Fatal error:  Cannot redeclare arrayFromDB() (previously declared in /home/krorg/nonpublic/oceanpark/opDb-db.php:17) in /home/krorg/nonpublic/oceanpark/opDb-cart.php on line 13
+[24-May-2021 05:04:50 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:04:50 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:04:55 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
 Stack trace:
-#0 /home/krorg/nonpublic/oceanpark/opController.php(11): include()
-#1 /home/krorg/public_html/oceanpark/opIndex.php(2): include('/home/krorg/non...')
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:05:15 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:05:15 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 05:05:23 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:05:23 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 05:21:50 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:21:50 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:21:55 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:22:09 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:22:09 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:22:15 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:22:39 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:22:39 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:22:44 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:23:35 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:23:35 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:23:41 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:25:05 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:25:05 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:25:11 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:27:56 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:27:56 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:28:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[24-May-2021 05:33:25 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:33:25 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:33:30 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 15
+[24-May-2021 05:41:39 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:41:39 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:41:45 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 15
+[24-May-2021 05:44:15 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 05:44:15 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 22:44:20 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 15
+[24-May-2021 06:05:45 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:05:45 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:05:50 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function storePaypalTransaction() in /home/krorg/public_html/oceanpark/paypalIPN.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/krorg/public_html/oceanpark/paypalIPN.php on line 15
+[24-May-2021 06:17:53 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:17:53 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:18:09 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[23-May-2021 23:18:09 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:18:09 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:18:09 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(83): prepared_query('SELECT *, COUNT...', 'homey@homey.com')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(41): updateDBFromPurchase(NULL, Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 06:22:45 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:22:45 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:22:51 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?,?,?)' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:65
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): mysqli->query('INSERT INTO tra...')
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
 #2 {main}
-  thrown in /home/krorg/nonpublic/oceanpark/6payment.php on line 67
-[19-May-2021 07:57:50 UTC] PHP Warning:  include(6payment.php): failed to open stream: No such file or directory in /home/krorg/nonpublic/oceanpark/opController.php on line 11
-[19-May-2021 07:57:50 UTC] PHP Warning:  include(): Failed opening '6payment.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/krorg/nonpublic/oceanpark/opController.php on line 11
-[19-May-2021 08:03:23 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/krorg/nonpublic/oceanpark/6payment.php on line 78
-[19-May-2021 08:03:26 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/krorg/nonpublic/oceanpark/6payment.php on line 78
-[19-May-2021 08:03:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/krorg/nonpublic/oceanpark/6payment.php on line 78
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 65
+[24-May-2021 06:27:38 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:27:38 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:27:44 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?,?,?)' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:66
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): mysqli->query('INSERT INTO tra...')
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 66
+[24-May-2021 06:43:42 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:43:42 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:43:57 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[23-May-2021 23:43:57 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:43:57 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:43:57 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(79): prepared_query('SELECT *, COUNT...', 'homey@homey.com')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(41): updateDBFromPurchase(3, Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 06:48:35 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:48:35 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:48:48 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[23-May-2021 23:48:48 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:48:48 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:48:48 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(79): prepared_query('SELECT *, COUNT...', 'homey1@homey.co...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(41): updateDBFromPurchase(4, Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 06:59:51 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 06:59:51 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[23-May-2021 23:59:56 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[23-May-2021 23:59:56 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:59:56 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[23-May-2021 23:59:56 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(63): prepared_query('SELECT count(*)...', '5TJ51749EJ92260...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 07:13:30 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 07:13:30 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 00:13:35 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 00:13:35 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 00:13:35 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 00:13:35 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(64): prepared_query('SELECT COUNT(*)...', '5TJ51749EJ92260...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 08:14:12 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 08:14:12 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 01:14:18 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 01:14:18 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 01:14:18 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 01:14:18 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '1LR290999X61054...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:19:25 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:19:25 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:19:32 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:19:32 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:19:32 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:19:32 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:19:55 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:19:55 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:20:03 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:20:03 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:20:03 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:20:03 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:20:27 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:20:27 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:20:33 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:20:33 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:20:33 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:20:33 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:21:16 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:21:16 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:21:22 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:21:22 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:21:22 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:21:22 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:22:47 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:22:47 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:22:52 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:22:52 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:22:52 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:22:52 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:25:35 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:25:35 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:25:44 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:25:44 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:25:44 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:25:44 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:31:15 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:31:15 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:31:20 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:31:20 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:31:20 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:31:20 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 10:42:04 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 10:42:04 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 03:42:10 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 03:42:10 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:42:10 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 03:42:10 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:03:34 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:03:34 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:03:40 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:03:40 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:03:40 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:03:40 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:05:04 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:05:04 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:05:10 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:05:10 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:05:10 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:05:10 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '1LR290999X61054...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:46:24 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:46:24 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:46:31 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:46:31 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:46:31 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:46:31 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:48:00 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:48:00 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:48:06 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:48:06 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:06 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:06 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:48:20 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:48:20 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:48:26 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:48:26 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:26 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:26 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:48:50 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:48:50 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:48:55 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:48:55 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:55 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:48:55 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:49:39 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:49:39 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:49:44 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:49:44 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:49:44 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:49:44 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:51:15 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:51:15 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:51:21 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:51:21 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:51:21 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:51:21 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:54:05 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:54:05 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:54:11 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:54:11 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:54:11 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:54:11 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 11:59:35 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 11:59:35 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 04:59:40 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 04:59:40 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:59:40 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 04:59:40 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 12:10:24 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 12:10:24 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 05:10:30 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 05:10:30 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 05:10:30 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 05:10:30 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 12:31:55 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 12:31:55 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 05:32:00 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 05:32:00 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 05:32:00 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 05:32:00 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 13:11:55 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 13:11:55 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 06:12:01 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 06:12:01 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 06:12:01 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 06:12:01 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 13:14:44 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 13:14:44 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 06:14:52 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 06:14:52 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 06:14:52 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 06:14:52 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 14:40:17 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 14:40:17 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 07:40:22 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 07:40:22 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 07:40:22 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 07:40:22 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 16:02:47 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 16:02:47 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 09:02:52 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 51
+[24-May-2021 09:02:52 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 09:02:52 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 53
+[24-May-2021 09:02:52 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('SELECT COUNT(*)...', '5TH12285UA95899...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 16:19:43 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 16:19:43 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 09:19:49 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 09:19:49 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 09:19:49 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 09:19:49 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(71): prepared_query('SELECT *, COUNT...', '5TJ51749EJ92260...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 16:46:35 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 16:46:35 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 09:46:40 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 09:46:40 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 09:46:40 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 09:46:40 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(71): prepared_query('SELECT *, COUNT...', '1LR290999X61054...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 17:31:07 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 17:31:07 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 10:31:14 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 10:31:14 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 10:31:14 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 10:31:14 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(71): prepared_query('SELECT *, COUNT...', '3N704467T272110...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 17:54:51 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 17:54:51 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 10:54:56 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 10:54:56 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 10:54:56 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 10:54:56 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(71): prepared_query('SELECT *, COUNT...', '5TJ51749EJ92260...')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 18:23:22 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 18:23:22 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 11:23:37 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 11:23:37 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 11:23:37 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 11:23:37 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(103): prepared_query('SELECT *, COUNT...', 'homey@homey.com')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(41): updateDBFromPurchase(5, Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 19:07:43 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:07:43 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:07:48 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(87): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 19:28:39 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:28:39 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:28:45 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(87): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 19:38:25 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:38:25 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:38:32 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(87): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 19:52:41 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:52:41 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:52:52 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:52:52 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:52:54 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:52:54 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:52:57 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:52:57 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:53:11 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:53:11 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:53:30 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:53:30 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 19:55:00 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:55:00 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:55:00 America/Los_Angeles] PHP Warning:  Use of undefined constant cartFields - assumed 'cartFields' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 70
+[24-May-2021 12:55:00 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO car...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(64): prepared_query('INSERT INTO car...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(70): insert('INSERT INTO car...', Array)
+#3 /home/krorg/nonpublic/oceanpark/6payment.php(69): storeCart(Array)
+#4 /home/krorg/nonpublic/oceanpark/opController.php(11): include('/home/krorg/non...')
+#5 /home/krorg/public_html/oceanpark/index.php(3): include('/home/krorg/non...')
+#6 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 19:55:45 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:55:45 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:55:45 America/Los_Angeles] PHP Warning:  Use of undefined constant cartFields - assumed 'cartFields' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 70
+[24-May-2021 12:55:45 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'registrantEmail' cannot be null in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(64): prepared_query('INSERT INTO car...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(70): insert('INSERT INTO car...', Array)
+#3 /home/krorg/nonpublic/oceanpark/6payment.php(69): storeCart(Array)
+#4 /home/krorg/nonpublic/oceanpark/opController.php(11): include('/home/krorg/non...')
+#5 /home/krorg/public_html/oceanpark/index.php(3): include('/home/krorg/non...')
+#6 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 19:57:26 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:57:26 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:57:26 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'registrantEmail' cannot be null in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(64): prepared_query('INSERT INTO car...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(70): insert('INSERT INTO car...', Array)
+#3 /home/krorg/nonpublic/oceanpark/6payment.php(69): storeCart(Array)
+#4 /home/krorg/nonpublic/oceanpark/opController.php(11): include('/home/krorg/non...')
+#5 /home/krorg/public_html/oceanpark/index.php(3): include('/home/krorg/non...')
+#6 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 19:59:18 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 19:59:18 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 12:59:18 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'registrantEmail' cannot be null in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(64): prepared_query('INSERT INTO car...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(70): insert('INSERT INTO car...', Array)
+#3 /home/krorg/nonpublic/oceanpark/6payment.php(69): storeCart(Array)
+#4 /home/krorg/nonpublic/oceanpark/opController.php(11): include('/home/krorg/non...')
+#5 /home/krorg/public_html/oceanpark/index.php(3): include('/home/krorg/non...')
+#6 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 20:00:17 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:00:17 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:00:55 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:00:55 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:05:08 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:05:08 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:05:13 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(97): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:05:26 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:05:26 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:05:32 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(97): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:05:56 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:05:56 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:06:04 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(97): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:06:37 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:06:37 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:06:47 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:06:47 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:06:54 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(97): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:07:30 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:07:30 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:08:17 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:08:17 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:08:27 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(98): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:10:26 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:10:26 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:11:10 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:11:10 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 20:17:04 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:17:04 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:17:10 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:27:54 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:27:54 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:28:00 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 20:49:24 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 20:49:24 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 13:49:30 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 21:32:14 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 21:32:14 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 14:32:20 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 21:44:24 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 21:44:24 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 14:44:31 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 22:57:45 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 22:57:45 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 15:57:50 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:12:38 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 23:12:38 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+[24-May-2021 16:12:44 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payer_email' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO tra...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO tra...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(100): insert('INSERT INTO tra...', Array)
+#3 /home/krorg/public_html/oceanpark/paypalIPN.php(16): storePaypalTransaction(Array)
+#4 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:55:33 UTC] PHP Warning:  Use of undefined constant NONPUBLIC_OP - assumed 'NONPUBLIC_OP' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 2
+[24-May-2021 23:55:33 UTC] PHP Warning:  Use of undefined constant ERRORLOG - assumed 'ERRORLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opBase.php on line 3
+
+[24-May-2021 18:48:54 America/Los_Angeles] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 52
+[24-May-2021 18:48:54 America/Los_Angeles] PHP Warning:  Only arrays and Traversables can be unpacked in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 18:48:54 America/Los_Angeles] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 56
+[24-May-2021 18:48:54 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: No data supplied for parameters in prepared statement in /home/krorg/nonpublic/oceanpark/opDb-db.php:58
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(58): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(119): prepared_query('SELECT *, COUNT...', 'homey@homey.com')
+#2 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(6, Array)
+#3 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 58
+[24-May-2021 21:53:43 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function storeRegistrant(), 1 passed in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 145 and exactly 2 expected in /home/krorg/nonpublic/oceanpark/opDb-db.php:112
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL)
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(7, Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 112
+[24-May-2021 21:54:15 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function storeRegistrant(), 1 passed in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 145 and exactly 2 expected in /home/krorg/nonpublic/oceanpark/opDb-db.php:112
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL)
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(8, Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 112
+[24-May-2021 21:54:57 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function storeRegistrant(), 1 passed in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 145 and exactly 2 expected in /home/krorg/nonpublic/oceanpark/opDb-db.php:112
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL)
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(9, Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 112
+[24-May-2021 21:56:01 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function storeRegistrant(), 1 passed in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 145 and exactly 2 expected in /home/krorg/nonpublic/oceanpark/opDb-db.php:112
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL)
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(10, Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 112
+[24-May-2021 21:57:43 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 11)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(11, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 22:06:39 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 12)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(12, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 22:17:43 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 13)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(46): updateDBFromPurchase(13, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 22:39:25 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 14)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(48): updateDBFromPurchase(14, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[25-May-2021 05:58:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 12
+[25-May-2021 05:59:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 12
+[25-May-2021 06:00:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
+[25-May-2021 06:00:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
+[25-May-2021 06:00:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:00:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14

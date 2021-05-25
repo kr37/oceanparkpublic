@@ -1,2 +1,3 @@
 <?php
-include("../../nonpublic/oceanpark/opController.php");
+include("../../nonpublic/oceanpark/opBase.php");
+include(NONPUBLIC_OP . "opController.php");
