@@ -856,3 +856,210 @@ Stack trace:
 [25-May-2021 06:00:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
 [25-May-2021 06:00:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
 [25-May-2021 06:00:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:03:22 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:03:33 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:03:46 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:03:56 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 06:04:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
+[25-May-2021 06:08:56 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
+[25-May-2021 06:20:58 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/krorg/public_html/oceanpark/paypalIPN.php on line 13
+[24-May-2021 23:22:26 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 15)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(49): updateDBFromPurchase(15, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:28:04 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 16)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(50): updateDBFromPurchase(16, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:30:33 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 17)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(50): updateDBFromPurchase(17, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:33:59 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 18)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(50): updateDBFromPurchase(18, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:35:46 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 19)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(50): updateDBFromPurchase(19, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:37:33 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(65): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(130): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(145): storeRegistrant(NULL, 20)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(50): updateDBFromPurchase(20, NULL)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[24-May-2021 23:44:31 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateDBFromPurchase(), 1 passed in /home/krorg/public_html/oceanpark/paypalIPN.php on line 32 and exactly 2 expected in /home/krorg/nonpublic/oceanpark/opDb-db.php:144
+Stack trace:
+#0 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(21)
+#1 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 144
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:54 America/Los_Angeles] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 153
+[24-May-2021 23:45:59 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(131): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(166): storeRegistrant(Array, 22)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(22, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[24-May-2021 23:57:53 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 151
+[24-May-2021 23:58:00 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 151
+[24-May-2021 23:59:53 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(131): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(160): storeRegistrant(Array, 25)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(25, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[25-May-2021 00:30:31 America/Los_Angeles] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 150
+[25-May-2021 07:48:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 119
+[25-May-2021 07:50:43 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(131): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(161): storeRegistrant(Array, 27)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(27, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[25-May-2021 07:54:48 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(131): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(160): storeRegistrant(Array, 28)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(28, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[25-May-2021 07:57:24 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(132): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(161): storeRegistrant(Array, 29)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(29, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[25-May-2021 07:59:41 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/krorg/nonpublic/oceanpark/opDb-db.php:115
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(161): storeRegistrant(Object(stdClass), 30)
+#1 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(30, Array)
+#2 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 115
+[25-May-2021 08:01:03 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:55
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(55): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(132): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(161): storeRegistrant(Array, 31)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(31, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 55
+[25-May-2021 08:19:24 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transactionIDs' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(138): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(167): storeRegistrant(Array, 32)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(32, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[25-May-2021 08:27:22 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transactions' in 'field list' in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('INSERT INTO reg...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(138): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(167): storeRegistrant(Array, 34)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(34, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[25-May-2021 08:29:57 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 123
+[25-May-2021 08:41:11 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'transactionIds' cannot be null in /home/krorg/nonpublic/oceanpark/opDb-db.php:59
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(59): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO reg...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(139): insert('INSERT INTO reg...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(168): storeRegistrant(Array, 39)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(32): updateDBFromPurchase(39, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 59
+[25-May-2021 12:46:38 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 128
+[25-May-2021 21:15:10 UTC] PHP Parse error:  syntax error, unexpected ''=>'' (T_CONSTANT_ENCAPSED_STRING) in /home/krorg/public_html/oceanpark/paypalIPN.php on line 14
+[25-May-2021 14:15:46 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'linens' cannot be null in /home/krorg/nonpublic/oceanpark/opDb-db.php:59
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(59): mysqli_stmt->execute()
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(66): prepared_query('INSERT INTO att...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(131): insert('INSERT INTO att...', Array)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(157): storeAttendees(Array)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(33): updateDBFromPurchase(50, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 59
+[25-May-2021 14:47:34 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(attendeeIds, bedsWithLinens, fullyBooked) VALUES (?,?,?) WHERE id = 8' at line 1 in /home/krorg/nonpublic/oceanpark/opDb-db.php:54
+Stack trace:
+#0 /home/krorg/nonpublic/oceanpark/opDb-db.php(54): mysqli->prepare('UPDATE rooms (a...')
+#1 /home/krorg/nonpublic/oceanpark/opDb-db.php(144): prepared_query('UPDATE rooms (a...', Array)
+#2 /home/krorg/nonpublic/oceanpark/opDb-db.php(134): updateRoom('8', NULL, 0)
+#3 /home/krorg/nonpublic/oceanpark/opDb-db.php(164): storeAttendees(Array)
+#4 /home/krorg/public_html/oceanpark/paypalIPN.php(33): updateDBFromPurchase(52, Array)
+#5 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 54
+[25-May-2021 14:58:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function updateRooms() in /home/krorg/nonpublic/oceanpark/opDb-db.php:165
+Stack trace:
+#0 /home/krorg/public_html/oceanpark/paypalIPN.php(33): updateDBFromPurchase(53, Array)
+#1 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 165
+[25-May-2021 15:00:22 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function updateRooms() in /home/krorg/nonpublic/oceanpark/opDb-db.php:165
+Stack trace:
+#0 /home/krorg/public_html/oceanpark/paypalIPN.php(33): updateDBFromPurchase(54, Array)
+#1 {main}
+  thrown in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 165
+[25-May-2021 15:09:58 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:10:09 America/Los_Angeles] PHP Warning:  Use of undefined constant ERROLOG - assumed 'ERROLOG' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/opDb-db.php on line 68
+[25-May-2021 15:49:12 America/Los_Angeles] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/krorg/nonpublic/oceanpark/2status.php on line 25
